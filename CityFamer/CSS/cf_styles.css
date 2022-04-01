@@ -1,0 +1,65 @@
+/* Sam Ames 4/01/2022 */
+
+
+#outerwrapper {
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+body{
+	background-color: #b8d1eb;
+	color: #000000;
+	font-family:'Times New Roman', Times, serif ;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+}
+
+@font-face {
+	font-family: 'Paratype' ;
+	src: url('../font/pt-sans/PTC55F.ttf') format('truetype');
+}
+
+h2{
+	font-family: 'Paratype' ;
+	font-weight: normal;
+	font-style: italic;
+}
+
+main{
+	background-color: #c5a98b;
+	padding: 10px;
+}
+
+nav ul{
+	list-style-type: none ;
+}
+
+main ul{
+	list-style-image: url('../images/tomato.jpg');
+}
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main, footer { 
+clear: both;
+}
+
+footer{
+	text-align: center;
+	font-size: .75em;
+	background-color: green;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
