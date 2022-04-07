@@ -1,0 +1,66 @@
+/* Style Sheet If You Build It (table), They Will Come */
+/* Name: Sam Ames                                       */
+
+/* Gradient target HTML body element tag */
+        body{
+          background-image: linear-gradient(to right, rgb(150, 189, 202), rgb(236, 169, 180));  
+        }
+
+
+/* css target tableStyle class in HTML */
+ .tableStyle{
+     width: 100%;
+     text-align: left;
+     padding: 1em;
+ }
+
+
+/* css target HTML Table caption tag */
+    caption{
+        font-size: 2em;
+    }
+
+
+/* css target HTML Table thead tag */
+ thead{
+     font-size: 1.5em;
+     background-color: white;
+ }
+ 
+ th,tr,td{
+     border: 1px solid black;
+ }
+
+.pink
+ {
+     background-color: rgb(235, 159, 171);
+ }
+
+.blue{
+    background-color: aqua;
+}
+
+/* css target HTML Table tfoot tag */
+ tfoot{
+     text-align: center;
+     font-size: medium;
+     background-color: white;
+ }
+ 
+ 
+/* Add a pseudo-class selector (page 320) */
+/* For example --  :nth-child(even)       */
+ 
+ a:active{
+     color: yellow;
+ }
+ 
+ a:visited{
+    color: rgb(84, 2, 84);
+ }
+ 
+/* use colgroup */
+ colgroup{
+     display: table-column-group;
+ }
+/* Week 3, Wednesday Video Lesson Chapter 8 folder - Table Column Group, page 173 */
