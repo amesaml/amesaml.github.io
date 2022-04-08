@@ -1,0 +1,64 @@
+
+/*Sam ames 04/08/2022 */
+
+
+html{
+	background-image: url('../image/jewelry.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+	 
+#outerwrapper {	
+	width: 70%;
+	border-radius: 15% ;
+	background: rgba(243,205,170, 0.4);
+}
+
+.addrightmargin{
+	margin-right: 10%;
+}
+
+img{
+	float: left;
+	border-radius: 100%;
+}
+
+h1{
+	font-family: 'Pacifico', times , cursive;	
+	font-size: 4em;
+}
+
+@font-face {
+	font-family: 'Aller';
+	src: url('../font/Aller/Aller_Bd.ttf');
+}
+
+h2{
+	font-family: 'Aller', times, serif;
+	font-style: italic;
+	font-size: 2em;
+
+}
+
+nav ul{
+	list-style-type: none;
+	font-size: 1.5em;
+	clear: left ;
+}
+
+main{
+	background-image:linear-gradient(to left, #FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Lobster', times ,cursive;
+}
+
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
