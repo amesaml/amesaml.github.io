@@ -1,0 +1,115 @@
+@media screen and (max-width: 700px){
+   img{
+       display: none;
+   } 
+
+}
+
+body {
+    font-family: 'Great Vibes', cursive;
+}
+
+.bi-house{
+    font-size: 2rem;
+}
+
+nav{
+    font-size: 1.5em;
+}
+
+header{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0.7, 0.5)), url(../images/header_backdrop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header p {
+font-size: 2em;
+}
+
+.btn , .modal-body,.modal-title{
+    font-size: 2em;
+}
+
+header h1 {
+    font-size: 5em;
+} 
+
+
+main h1 {
+    text-align: center;
+    font-size: 4em;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+h2{
+    font-size: 3em;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+main p {
+    font-size: 2em;
+}
+
+main li {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+
+main ul {
+    list-style: none;
+}
+
+.hair {
+   background-image: linear-gradient(to bottom, rgb(27, 27, 27),gray,lightgray);
+   color: white;
+}
+
+.nails {
+    background-image: linear-gradient(to bottom, lightgray,lavenderblush,lavender,lavender);
+}
+
+.spaPackage{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5)), url(../images/spaDay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+footer p {
+    font-size: 1.5em;
+}
+
+footer a {
+    color: black;
+}
+
+.bi-telephone-fill, .bi-envelope, .bi-map-fill {
+    font-size: 3em;
+}
+
+#model2, #model3, #model4 {
+    height: 612px;
+}
+
+#nail1, #nail2, #nail3, #nail4 {
+    height: 610px;
+    width: 620px;
+}
+
+#info {
+    opacity: .5;
+}
+
+#policy {
+    color: rgb(175, 6, 6);
+}
